@@ -1,12 +1,12 @@
-package io.github.pleahmacaka.examplemod
+package io.github.pleahmacaka.maker
 
 import net.fabricmc.api.ModInitializer
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
-const val MODID = "examplemod"
+const val MODID = "maker"
 
-object ExampleMod : ModInitializer {
+object MakerMOD : ModInitializer {
 
     val logger: Logger = LoggerFactory.getLogger(MODID)
 

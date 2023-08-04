@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "maker",
   "version": "${version}",
-  "name": "ExampleMod",
-  "description": "beta version core mod for private server",
+  "name": "NPC Maker",
+  "description": "Make your own NPCs!",
   "authors": [
     "PleahMaCaka"
   ],
   "contact": {
-    "website": "https://github.com/pleahmacaka/fabric-template",
-    "repo": "https://github.com/pleahmacaka/fabric-template"
+    "website": "https://github.com/pleahmacaka/npc-maker",
+    "repo": "https://github.com/pleahmacaka/npc-maker"
   },
   "license": "MIT",
   "icon": "./assets/icon.png",
@@ -18,18 +18,18 @@
     "client": [
       {
         "adapter": "kotlin",
-        "value": "io.github.pleahmacaka.examplemod.client.ExampleModClient"
+        "value": "io.github.pleahmacaka.maker.client.MakerClient"
       }
     ],
     "main": [
       {
         "adapter": "kotlin",
-        "value": "io.github.pleahmacaka.examplemod.ExampleMod"
+        "value": "io.github.pleahmacaka.maker.MakerMOD"
       }
     ]
   },
   "mixins": [
-    "examplemod.mixins.json"
+    "maker.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",

@@ -1,4 +1,4 @@
-package io.github.pleahmacaka.examplemod.bindings
+package io.github.pleahmacaka.maker.bindings
 
 object ExampleMixinBinding {
     fun start() {
